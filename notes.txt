@@ -1,0 +1,12 @@
+----- create venv -----
+MAC pyhton3 -m venv venv
+
+----- activate the venv -----
+MAC source venv/bin/activate
+
+----- install flask ----
+pip install flask
+
+---- Run app ----
+MAC python server.py
+
