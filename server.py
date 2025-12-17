@@ -193,6 +193,7 @@ def get_coupon(coupon_id):
 
 
 #PUT /api/products
+#Put adds
 @app.route("/api/products/<int:product_id>", methods=["PUT"])
 def update_product(product_id):
     updated_data = request.get_json()
